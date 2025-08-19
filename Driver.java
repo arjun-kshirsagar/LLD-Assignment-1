@@ -30,7 +30,7 @@ public class Driver {
             System.out.print("Choose an option: ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             switch (choice) {
                 case 1 -> {
